@@ -1,0 +1,25 @@
+{
+  "name": "accordion-wc-demo",
+  "version": "1.0.0",
+  "homepage": "https://github.com/uniqname/accordion-web-component",
+  "authors": [
+    "Cory Brown <oh.wise.man@gmail.com>"
+  ],
+  "description": "An accordion Web Component Demo",
+  "main": "index.html",
+  "keywords": [
+    "WebComponents",
+    "Accordion"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponents.js": "~0.4.2"
+  }
+}
