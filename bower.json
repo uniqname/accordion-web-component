@@ -6,7 +6,7 @@
     "Cory Brown <oh.wise.man@gmail.com>"
   ],
   "description": "An accordion Web Component Demo",
-  "main": "index.html",
+  "main": "components/accordion.html",
   "keywords": [
     "WebComponents",
     "Accordion"
