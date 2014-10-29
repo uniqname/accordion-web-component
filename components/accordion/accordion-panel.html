@@ -1,0 +1,27 @@
+<template id="accordion-panel-template">
+	<style scoped>
+		:host {
+			border-top: 1px solid #999;
+			border-bottom: 1px solid #999;
+			display: block;
+			padding: 1em;
+		}
+		::content header {
+			cursor: pointer;
+			font-size: 1.5em;
+			margin-bottom: .25em;
+		}
+		::content section {
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height .25s;
+		}
+
+		:host([open]) content[select="section"]::content > section {
+			max-height: 100vh;
+		}
+	</style>
+	<content select="header"></content>
+	<content select="section"></content>
+</template>
+<script src="accordion-panel.js"></script>
